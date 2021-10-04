@@ -8,6 +8,7 @@ cursor: pointer;
 padding: 0.6rem;
 font-size: 16px;
 line-height: 19px;
+transition: all 0.50s;
 :hover {
   color: red;
 }
@@ -20,7 +21,6 @@ const NavBarWrapper = styled.div`
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
   background: ${({ theme }) => theme.background};
   border-radius: 8px;
   display: flex;
