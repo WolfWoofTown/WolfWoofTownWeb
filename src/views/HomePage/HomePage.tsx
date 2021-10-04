@@ -1,9 +1,12 @@
 import styled from "styled-components";
 import { Toggler } from "../../components/Toggler/Toggler";
 import { NavBar } from "../../components/NavBar/NavBar";
+import { ImageToggler } from "../../components/Toggler/ImageToggler";
 
 import Logo from "../../assets/Logos/WWTLogo.png";
 import Banner from "../../assets/Banner-Twitter.png";
+import lightImage from "../../assets/NFTDisplay/lightMode.png";
+import darkImage from "../../assets/NFTDisplay/darkMode.png";
 
 export const HomePage = ({
   theme,
@@ -44,6 +47,7 @@ export const HomePage = ({
       </HeaderWrapper>
       <BannerWrapper src={Banner} />
       HomePage
+      <ImageToggler imageOne={lightImage} imageTwo={darkImage} theme={theme} />
     </div>
   );
 };
