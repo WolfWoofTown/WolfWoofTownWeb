@@ -47,7 +47,7 @@ export const HomePage = ({
       </HeaderWrapper>
       <BannerWrapper src={Banner} />
       HomePage
-      <ImageToggler imageOne={lightImage} imageTwo={darkImage} theme={theme} />
+      <ImageToggler lightImage={lightImage} darkImage={darkImage} theme={theme} />
     </div>
   );
 };
