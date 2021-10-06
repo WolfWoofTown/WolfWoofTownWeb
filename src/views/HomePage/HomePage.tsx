@@ -1,10 +1,13 @@
 import styled from "styled-components";
 import { Toggler } from "../../components/Toggler/Toggler";
 import { NavBar } from "../../components/NavBar/NavBar";
+import { ImageToggler } from "../../components/Toggler/ImageToggler";
 
 import Logo from "../../assets/Logos/WWTLogo.png";
 import Banner from "../../assets/Banner-Twitter.png";
 import { ClickMe } from "../../components/ClickMe/ClickMe";
+import lightImage from "../../assets/NFTDisplay/lightMode.png";
+import darkImage from "../../assets/NFTDisplay/darkMode.png";
 
 export const HomePage = ({
   theme,
@@ -46,6 +49,7 @@ export const HomePage = ({
       <BannerWrapper src={Banner} />
       <ClickMe theme={theme} toggleTheme={themeToggler}/>
       HomePage
+      <ImageToggler lightImage={lightImage} darkImage={darkImage} theme={theme} />
     </div>
   );
 };
