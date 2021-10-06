@@ -5,6 +5,7 @@ import { ImageToggler } from "../../components/Toggler/ImageToggler";
 
 import Logo from "../../assets/Logos/WWTLogo.png";
 import Banner from "../../assets/Banner-Twitter.png";
+import { ClickMe } from "../../components/ClickMe/ClickMe";
 import lightImage from "../../assets/NFTDisplay/lightMode.png";
 import darkImage from "../../assets/NFTDisplay/darkMode.png";
 
@@ -46,6 +47,7 @@ export const HomePage = ({
         <Toggler theme={theme} toggleTheme={themeToggler} />
       </HeaderWrapper>
       <BannerWrapper src={Banner} />
+      <ClickMe theme={theme} toggleTheme={themeToggler}/>
       HomePage
       <ImageToggler lightImage={lightImage} darkImage={darkImage} theme={theme} />
     </div>
