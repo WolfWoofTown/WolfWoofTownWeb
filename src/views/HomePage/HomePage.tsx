@@ -4,6 +4,7 @@ import { NavBar } from "../../components/NavBar/NavBar";
 
 import Logo from "../../assets/Logos/WWTLogo.png";
 import Banner from "../../assets/Banner-Twitter.png";
+import { ClickMe } from "../../components/ClickMe/ClickMe";
 
 export const HomePage = ({
   theme,
@@ -43,6 +44,7 @@ export const HomePage = ({
         <Toggler theme={theme} toggleTheme={themeToggler} />
       </HeaderWrapper>
       <BannerWrapper src={Banner} />
+      <ClickMe theme={theme} toggleTheme={themeToggler}/>
       HomePage
     </div>
   );

@@ -14,6 +14,7 @@ function App() {
         <GlobalStyles />
         <div className="App">
           <HomePage theme={theme} themeToggler={themeToggler} />
+          {console.log(theme)}
         </div>
       </>
     </ThemeProvider>
