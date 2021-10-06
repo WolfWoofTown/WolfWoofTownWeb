@@ -5,8 +5,13 @@ background: Transparent;
 border: none;
 color: ${({ theme }) => theme.text};
 cursor: pointer;
-font-size:0.8rem;
 padding: 0.6rem;
+font-size: 16px;
+line-height: 19px;
+transition: all 0.50s;
+:hover {
+  color: red;
+}
 }
 `;
 
@@ -15,6 +20,11 @@ const NavBarWrapper = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  background: ${({ theme }) => theme.background};
+  border-radius: 8px;
+  display: flex;
+  height: 56px;
 `;
 
 export const NavBar = ({ headers }: { headers: string[] }) => {
