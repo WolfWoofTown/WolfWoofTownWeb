@@ -24,7 +24,8 @@ const NavBarWrapper = styled.div`
   background: ${({ theme }) => theme.background};
   border-radius: 8px;
   display: flex;
-  height: 56px;
+  height: 100%;
+  
 `;
 
 export const NavBar = ({ headers }: { headers: string[] }) => {

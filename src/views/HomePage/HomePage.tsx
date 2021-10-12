@@ -1,16 +1,19 @@
 import styled from "styled-components";
 import { Toggler } from "../../components/Toggler/Toggler";
 import { NavBar } from "../../components/NavBar/NavBar";
-import { ImageToggler } from "../../components/Toggler/ImageToggler";
+import { TopBanner } from "../../components/Banner/TopBanner";
+import styles from "./HomePage.module.scss";
 
 import Logo from "../../assets/Logos/WWTLogo.png";
 import BaseFinal from "../../assets/Base-Final.jpg";
-import Banner from "../../assets/Banner-Twitter.png";
-import { Carousel } from "../../components/Carousel/Carousel";
-import { ClickMe } from "../../components/ClickMe/ClickMe";
-import lightImage from "../../assets/NFTDisplay/lightMode.png";
-import darkImage from "../../assets/NFTDisplay/darkMode.png";
+import BannerDay from "../../assets/Banners/BgDay.png";
+import BannerNight from "../../assets/Banners/BgNight.png";
+import StoryBgDay from "../../assets/StoryBgDay.png";
+import StoryBgNight from "../../assets/StoryBgNight.jpeg";
+import BoyRound from "../../assets/NFTDisplay/BoyRound.png";
+import WolfRound from "../../assets/NFTDisplay/WolfRound.png";
 
+import { Carousel } from "../../components/Carousel/Carousel";
 
 export const HomePage = ({
   theme,
@@ -19,28 +22,6 @@ export const HomePage = ({
   theme: string;
   themeToggler: () => void;
 }) => {
-  const LogoWrapper = styled.img`
-    width: 100px;
-    height: 100px;
-    margin: 30px;
-  `;
-
-  const BannerWrapper = styled.img`
-    width: 100%;
-    height: 100%;
-  `;
-
-  const HeaderWrapper = styled.div`
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    button:last-of-type {
-      margin-left: auto;
-      margin-right: 10px;
-    }
-  `;
   const CarouselWrapper = styled.div`
     display: flex;
     align-items: center;
@@ -53,17 +34,39 @@ export const HomePage = ({
   const images = [Logo, Logo, Logo, BaseFinal, BaseFinal, BaseFinal];
   return (
     <div>
-      <HeaderWrapper>
-        <LogoWrapper src={Logo} />
+      <div className={styles.headerWrapper}>
+        <img className={styles.logo} src={Logo} alt="Logo" />
         <NavBar headers={headers} />
-        <Toggler theme={theme} toggleTheme={themeToggler} />
-      </HeaderWrapper>
-      <BannerWrapper src={Banner} />
+        <Toggler toggleTheme={themeToggler} />
+      </div>
+      <img
+        className={styles.baseBanner}
+        src={theme === "light" ? BannerDay : BannerNight}
+        alt="Base Banner"
+      />
+      <TopBanner />
+      <div className={styles.imageToggleWrapper}>
+        <img
+          className={styles.toggleImage}
+          src={theme === "light" ? BoyRound : WolfRound}
+          alt={theme}
+        />
+        <Toggler toggleTheme={themeToggler} />
+      </div>
+      <img
+        className={styles.storyBg}
+        src={theme === "light" ? StoryBgDay : StoryBgNight}
+        alt="Story Background"
+      />
       <CarouselWrapper>
         <Carousel images={images} />
       </CarouselWrapper>
       HomePage
-      <ImageToggler lightImage={lightImage} darkImage={darkImage} theme={theme} />
+      {/* <ImageToggler
+        lightImage={lightImage}
+        darkImage={darkImage}
+        theme={theme}
+      /> */}
     </div>
   );
 };

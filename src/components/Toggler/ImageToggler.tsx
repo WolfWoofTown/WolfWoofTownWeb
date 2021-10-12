@@ -13,11 +13,9 @@ export const ImageToggler = ({ lightImage, darkImage, theme }: { lightImage: str
   const [displayImage, setDisplayImage] = useState(lightImage);
 
   useEffect(() => {
-    displayImage === lightImage ? setDisplayImage(darkImage) : setDisplayImage(lightImage); 
+    theme === "light" ? setDisplayImage(darkImage) : setDisplayImage(lightImage); 
   }, [theme]);
   
-
-
   return (
     <ImageWrapper src={displayImage} />
   )
