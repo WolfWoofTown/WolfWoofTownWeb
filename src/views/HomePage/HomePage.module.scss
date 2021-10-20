@@ -5,9 +5,9 @@
   flex-direction: row;
   align-items: center;
   justify-content: start;
-  button:last-of-type {
+  label:last-of-type {
     margin-left: auto;
-    margin-right: 10px;
+    margin-right: 5%;
   }
 }
 
@@ -22,9 +22,24 @@
   height: 100%;
 }
 
-.storyBg {
+.baseBannerMobile {
+  margin-top: -20%;
   width: 100%;
   height: 100%;
+}
+
+.storyBgLight {
+  background-image: url("../../assets/StoryBgDay.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 100%;
+}
+
+.storyBgDark {
+  background-image: url("../../assets/StoryBgNight.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
 }
 
 .toggleImage {
@@ -38,4 +53,104 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin: 0 10%;
+}
+
+.textBox {
+  padding: 0 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+.headerText {
+  font-family: "Northead";
+  color: #ed243f;
+  font-size: 90px;
+  margin-bottom: 30px;
+}
+.mainText {
+  font: "roboto";
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+.mainTextStory {
+  font: "roboto";
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+
+.mainTextMobile {
+  font: "roboto";
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 10px 0 10px;
+
+}
+
+.clickText {
+  font: "roboto";
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  padding:0 7%;
+}
+.filler {
+  height: 500px;
+}
+
+.roadMapHeaderWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.roadMapHeader{
+  font-family: "Northead";
+  font-size: 150px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.redBar {
+  background-color: #ed243f;
+  height: 10px;
+  width: 30%;
+  margin-top: 10px;
+}
+
+.storyBg {
+  margin-top: -2000px;
+  width: 100%;
+}
+
+.redBanner {
+  background-color: #ed243f;
+  height: 20px;
+  width: 100%;
+}
+
+.clickWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mobileWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoMobile {
+  width: 100%;
+  margin-bottom: -15%;
 }

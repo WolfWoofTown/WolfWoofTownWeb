@@ -49,7 +49,7 @@
 }
 .textBox {
   margin-top: -1%;
-  padding: 0 10%;
+  padding: 0 25%;
   background-color: #101010;
   display: flex;
   flex-direction: column;
@@ -60,7 +60,8 @@
 .headerText {
   font-family: "Northead";
   color: #f9c2d5;
-  font-size: 55px;
+  font-size: 80px; 
+  line-height: 70px;
 }
 .mainText {
   font: "roboto";

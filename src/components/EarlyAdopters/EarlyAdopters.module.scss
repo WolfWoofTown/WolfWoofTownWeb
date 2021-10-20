@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  font-family: "Northead";
+  font-size: 100px;
+  margin-bottom: 30px;
+}
+
+.redBar {
+  background-color: #ed243f;
+  height: 10px;
+  width: 18%;
+  margin-top: -50px;
+}
+
+.cardWrapper {
+  margin: 0 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 1325px) {
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+}
+
+.text {
+  font: "roboto";
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+
+.img {
+  width: 600px;
+  height: 600px;
+}

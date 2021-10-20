@@ -3,3 +3,60 @@
 	width: 30%;
 	margin: 30px;
 }
+
+.card1 {
+	background-image: url('../../assets/Roadmap/RoadMap0.svg');
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+	background-size: cover;
+}
+
+.card2 {
+	background-image: url('../../assets/Roadmap/RoadMap25.svg');
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+	background-size: cover;
+}
+.card3 {
+	background-image: url('../../assets/Roadmap/RoadMap50.svg');
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+	background-size: cover;
+}
+.card4 {
+	background-image: url('../../assets/Roadmap/RoadMap75.svg');
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+	background-size: cover;
+}
+.card5 {
+	background-image: url('../../assets/Roadmap/RoadMap100.svg');
+	background-repeat: no-repeat;
+	background-position: 50% 100%;
+	background-size: cover;
+}
+.textBox {
+	height: 985px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0 20%;
+}
+
+.header {
+	font-family: "Northead";
+	color: black;
+	font-size: 100px;
+	text-align: center;
+	line-height: 80px;
+	margin-bottom: 30px;
+}
+
+.mainText {
+	font: "roboto";
+	color: white;
+	font-weight: 600;
+	font-size: 30px;
+	text-align: center;
+}

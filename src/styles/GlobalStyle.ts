@@ -12,10 +12,10 @@ export const GlobalStyles = createGlobalStyle`
       theme.text};
     font-family: Tahoma, Helvetica, Arial, Roboto, sans-serif;
     // transition: all 0.50s linear;
-    -webkit-transition: all 2s ease;
-    -moz-transition: all 2s ease;
-    -o-transition: all 2s ease;
-    -ms-transition: all 2s ease;
-    transition: all 2s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
   }
   `;

@@ -9,11 +9,11 @@ export const TopBanner = () => {
       <div className={styles.textBox}>
         <div className={styles.headerText}>What is Woof Wolf Town?</div>
         <div className={styles.mainText}>
-          Wolf Woof Town (WWT) is here to create a community, where all can come
-          together and be part of the town, helping to grow and shape the
-          direction of the town. WWT will be a collection that represents the
-          10,000 members in Wolf Town. Each unique character has two sides their
-          human form and their Werewolf form.
+          Wolf Woof Town (WWT) is here to create a community, where every wolf
+          has a say in how the town grows and shapes up. WWT will be a
+          collection that represents the 10,000 members in Wolf Town. Every
+          character is unique and has two forms: In the day, they are human but
+          come sunset the werewolves are set lose. Welcome to the pack!
         </div>
       </div>
       <img src={TopBannerBtm} alt="TopBannerBtm" className={styles.image} />
