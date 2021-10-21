@@ -122,7 +122,7 @@ export const HomePage = ({
             Woof Town is the community who embraces all sides of who you are.
             This community was formed because we are sick of having to conform
             to how others want us to look and behave, join us and be free of
-            judgment, and release your inner wolf 🐺.
+            judgment, and release your inner wolf.
           </div>
         </div>
         <div className={styles.filler}></div>
