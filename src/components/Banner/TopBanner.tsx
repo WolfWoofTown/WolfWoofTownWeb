@@ -7,7 +7,7 @@ export const TopBanner = () => {
     <div className={styles.container}>
       <img src={TopBannerTop} alt="TopBannerTop" className={styles.image} />
       <div className={styles.textBox}>
-        <div className={styles.headerText}>What is Woof Wolf Town?</div>
+        <div className={styles.headerText}>What is Wolf Woof Town?</div>
         <div className={styles.mainText}>
           Wolf Woof Town (WWT) is here to create a community, where every wolf
           has a say in how the town grows and shapes up. WWT will be a
