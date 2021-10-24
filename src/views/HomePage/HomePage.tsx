@@ -105,24 +105,32 @@ export const HomePage = ({
           <div className={styles.clickWrapper}>
             <Toggler theme={theme} toggleTheme={themeToggler} />
             <div className={styles.clickText}>
-              We wanted to bring to the community something that stands out. As
-              such, we decided to design each NFT with both a human and wolf
-              version. Our NFTs will be sold as GIFs but users can alternate
-              between which form they like. One of our future goals for the
-              website is to have a catalouge of all the townsfolk, and of
-              course, their inner wolves.
+              Wolf Woof Town (WWT) is here to create a community, where every
+              wolf has a say in how the town grows and shapes up. WWT will be a
+              collection that represents the 10,000 members in Wolf Woof Town.
+              Every character is unique and has two forms: In the day, they are
+              human but come sunset the werewolves are set loose. Welcome to the
+              pack!
             </div>
           </div>
         </div>
         <div className={styles.textBox}>
           <div className={styles.headerText}>The Story</div>
           <div className={styles.mainTextStory}>
-            Everyone has hidden sides to themselves. You have the face you show
-            to the world but more importantly the face you show nobody else.
-            Woof Town is the community who embraces all sides of who you are.
-            This community was formed because we are sick of having to conform
-            to how others want us to look and behave, join us and be free of
-            judgment, and release your inner wolf.
+            Wolf Woof Town was an ancient village that was uncontactable from
+            the rest of the world. A town deep in the wilderness, where those
+            who were banished from the rest of society sought to seek refuge.
+            Little was known about Wolf Woof Town, apart from strange howls
+            coming from the area whenever there was a full moon. In 2021, Wolf
+            Woof Town finally made contact with the outside world through the
+            solana network, and it has been revealed that not only are they huge
+            blockchain fans, they are also accepting new applicants to join them
+            in their town. However competition is tight, and they have mentioned
+            they will only be accepting a maximum of 10,000 new residents. Wolf
+            Woof Town is the community that embraces all sides of who you are.
+            This community was formed from those were were sick of having to
+            conform to societal norms and how others want us to look and behave.
+            Join us and be free of judgment. Release your inner wolf.
           </div>
         </div>
         <div className={styles.filler}></div>

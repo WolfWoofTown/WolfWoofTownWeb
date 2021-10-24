@@ -21,11 +21,11 @@ export const RoadMap = () => {
           <div className={styles.textBox}>
             <div className={styles.header}>Alpha Wolves</div>
             <div className={styles.mainText}>
-              Release of first 100 Early adopter limited edition werewolves.
-              These wolves are the ALPHA's of the Pack and they will have a big
+              Release of first hundred early adopter limited edition werewolves.
+              These wolves are the alpha's of the Pack and they will have a big
               role to play in deciding what the future holds for WWT. This
               initial launch will also help us test out some of our minting
-              software as well as be a good dry run for the initial launch.
+              software as well as be a good dry run for the next phase.
             </div>
           </div>
         </div>
@@ -40,12 +40,12 @@ export const RoadMap = () => {
             <div className={styles.mainText}>
               Once we have finished the development of our minting software and
               Sam our favourite designer has drawn up all the wacky wolves, we
-              will "let the dogs out". We plan for a full scale launch of 9900
-              wolves, although this number may change depending on if we do any
-              more giveaways. However, we aim to not exceed 10,000 total number
-              of towns folk. The launch will be one of the most exciting moments
-              for not just the team, but also the community and I can't wait to
-              announce the big day.
+              will "let the dogs out". We plan for a full scale launch of the
+              remaining 9900 wolves, although this number may change depending
+              on if we do any more giveaways. However, we aim to not exceed
+              10,000 total number of towns folk. The launch will be one of the
+              most exciting moments for not just the team, but also the
+              community and I can't wait to announce the big day.
             </div>
           </div>
         </div>
@@ -55,8 +55,8 @@ export const RoadMap = () => {
           <div className={styles.textBox}>
             <div className={styles.header}>Transform the world</div>
             <div className={styles.mainText}>
-              Naturally, Wolves are the spirit animals of the Werwolves, but did
-              you know they also play a pivotal role in the balance of an
+              Naturally, Wolves are the spirit animals of the Werewolves, but
+              did you know they also play a pivotal role in the balance of an
               ecosystem as a keystone species. WWT will make donations to a
               verified wolf protection charity and maybe we will even adopt a
               wolf. A percentage of all royalties will go to other environmental
@@ -76,12 +76,12 @@ export const RoadMap = () => {
               For us, although a virtual world is great, nothing beats kicking
               back and enjoying a beer with fellow NFT entusiasts. That's why
               WWT will begin organising discord and live events for members
-              (drinks on us), these will be regular social events for everyone
+              (drinks on us!). These will be regular social events for everyone
               to get to know each other, and take time off from our busy
-              schedule. These events will take place across the world and we
-              would love it if we could have suggestions for activites from you
-              guys We will also be releasing merchandise for the community to
-              get their hands on (Hoodies, Tees, Socks, you name it!).
+              schedule. The events will take place across the world and we would
+              love it if we could have suggestions for activites from you guys.
+              We will also be releasing merchandise for the community to get
+              their hands on (Hoodies, Tees, Socks, you name it!).
             </div>
           </div>
         </div>
@@ -96,10 +96,10 @@ export const RoadMap = () => {
               Town. as a town, we will come together to decide new features we
               want to see in our town square (These include games, fireside
               chats, concerts???). WWT is in this for the long run, and there
-              really is no end to our Roadmap. We will continue to create new
+              really is no end to our roadmap. We will continue to create new
               projects, and our members will be with us every step of the way.
               Everyones voice in our community matters, so hop on in and lets
-              see where the rabbit hole takes us!
+              see where the rabbit hole takes us!◊
             </div>
           </div>
         </div>
