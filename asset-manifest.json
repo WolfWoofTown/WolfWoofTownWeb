@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.2914c949.chunk.css",
-    "main.js": "/static/js/main.da8b906b.chunk.js",
-    "main.js.map": "/static/js/main.da8b906b.chunk.js.map",
+    "main.js": "/static/js/main.a5686f11.chunk.js",
+    "main.js.map": "/static/js/main.a5686f11.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.95acc6c2.js",
     "runtime-main.js.map": "/static/js/runtime-main.95acc6c2.js.map",
     "static/css/2.c1256375.chunk.css": "/static/css/2.c1256375.chunk.css",
@@ -17,7 +17,7 @@
     "static/media/BgDay.e7100a57.png": "/static/media/BgDay.e7100a57.png",
     "static/media/BgNight.e0b060e3.png": "/static/media/BgNight.e0b060e3.png",
     "static/media/BoyRound.6d6760da.png": "/static/media/BoyRound.6d6760da.png",
-    "static/media/Footer-Logo.4ab860d0.png": "/static/media/Footer-Logo.4ab860d0.png",
+    "static/media/Footer-Logo.43a24fa4.png": "/static/media/Footer-Logo.43a24fa4.png",
     "static/media/MobileDay.699a9906.png": "/static/media/MobileDay.699a9906.png",
     "static/media/MobileNight.b263ab14.png": "/static/media/MobileNight.b263ab14.png",
     "static/media/NFT1.445a4d84.png": "/static/media/NFT1.445a4d84.png",
@@ -45,6 +45,6 @@
     "static/css/2.c1256375.chunk.css",
     "static/js/2.21b91148.chunk.js",
     "static/css/main.2914c949.chunk.css",
-    "static/js/main.da8b906b.chunk.js"
+    "static/js/main.a5686f11.chunk.js"
   ]
 }
